@@ -243,13 +243,13 @@ body {
   align-items: center;
   padding: 15px;
   border-bottom: 5px  solid rgba(255,255,255,0.08);
-  /* background-color: #000; */
+  
    background: linear-gradient(180deg, #0f172a, #020617);
 }
 
 
 .sb-logo {
-  /* margin-left: ; */
+  
   width: 100px;
 }
 
@@ -354,21 +354,7 @@ body {
 
 
 
-/* .sidebar-header {
-  background: #000000;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}  */
 
-
-
-
-
-
-
-/* Push header content when sidebar open */
 
 
 
@@ -385,9 +371,6 @@ body {
 
 
 
-/* =========================
-   APP LAYOUT
-========================= */
 
 .app-layout {
   display: flex;
@@ -395,9 +378,7 @@ body {
   overflow-x: hidden;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
+
 
 .sb-container {
   position: fixed;
@@ -426,9 +407,7 @@ body {
   transform: translateX(0);
 }
 
-/* =========================
-   MAIN SECTION
-========================= */
+
 
 .main-section {
   flex: 1;
@@ -447,9 +426,7 @@ body {
   width: calc(100% - 250px);
 }
 
-/* =========================
-   HEADER
-========================= */
+
 
 .header {
   position: fixed;
@@ -475,7 +452,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Move header with content */
+
 
 .main-section.shifted .header {
   left: 250px;
@@ -528,9 +505,6 @@ body {
 
 
 
-/* =========================
-   PAGE CONTENT
-========================= */
 @media (max-width: 480px) {
   .header {
     height: 60px;
@@ -1185,7 +1159,7 @@ input:focus {
   }
 }
 .menu-toggle {
-  display: block;   /* 👈 FIX */
+  /* display: block;    */
   background: none;
   border: none;
   padding: var(--space-sm);
@@ -1394,7 +1368,7 @@ input:focus {
 .profile-container:hover .dropdown-menu {
   display: block;
 }
- */
+ 
 
 
  .header-right {
